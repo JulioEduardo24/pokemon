@@ -26,9 +26,6 @@ function App() {
       }
     }
   }
-  useEffect(() => {
-    fetchApi();
-  }, []);
 
   return (
     <header className="App-header">
